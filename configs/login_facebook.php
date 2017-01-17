@@ -25,6 +25,7 @@ try {
     exit;
 }
 if (isset($accessToken)) {
+
     if (isset($_SESSION['facebook_access_token'])) {
         $fb->setDefaultAccessToken($_SESSION['facebook_access_token']);
     } else {
@@ -33,10 +34,14 @@ if (isset($accessToken)) {
         $longLivedAccessToken = $oAuth2Client->getLongLivedAccessToken($_SESSION['facebook_access_token']);
         $_SESSION['facebook_access_token'] = (string) $longLivedAccessToken;
         $fb->setDefaultAccessToken($_SESSION['facebook_access_token']);
+
+
+
     }
     if (isset($_GET['code'])) {
         header('Location: ./');
     }
+
     try {
         $profile_request = $fb->get('/me?fields=name,first_name,last_name,email');
         $profile = $profile_request->getGraphNode()->asArray();
@@ -49,7 +54,9 @@ if (isset($accessToken)) {
         echo 'Facebook SDK returned an error: ' . $e->getMessage();
         exit;
     }
-    var_dump($profile);
+
+
+
     $logoff = filter_input(INPUT_GET, 'sair', FILTER_DEFAULT);
     if (isset($logoff) && $logoff == 'true'):
         session_destroy();
@@ -58,8 +65,12 @@ if (isset($accessToken)) {
     echo '<a href="?sair=true">Sair</a>';
     var_dump($_SESSION);
 }else {
-    $loginUrl = $Login->getLoginUrl('http://localhost:8888/sistema_analise_dados/configs/api_facebook.php', $permissions);
+    $loginUrl = $Login->getLoginUrl('http://localhost:8888/sistema_analise_dados(estudo_api_facebook)/configs/login_facebook.php', $permissions);
     echo '<a href="' . $loginUrl . '">Entrar com facebook</a>';
     echo $accessToken;
     var_dump($_SESSION);
 }
+
+
+echo "<br><br>-============-<br><br>";
+
