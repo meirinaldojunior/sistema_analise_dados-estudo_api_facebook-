@@ -13,7 +13,7 @@ $count = 0;
 $fim = 0;
 
 //REFERENCIAS DA PESQUISA
-$_cod_page = "bradesco";
+$_cod_page = "333720355130";
 $_data_inicio = "2016-01-10";
 $_data_fim = "2017-01-10";
 
@@ -21,7 +21,7 @@ $_data_fim = "2017-01-10";
 if (isset($accessToken)) {
     try {
 
-        $pagina_rp = $fb->get("".$_cod_page."/feed?until=".$_data_fim."&since=".$_data_inicio."&limit=100");
+        $pagina_rp = $fb->get("".$_cod_page."/likes?until=".$_data_fim."&since=".$_data_inicio."&limit=100");
         $pagina = $pagina_rp->getGraphEdge();
 
         $count += $pagina->count();
@@ -34,7 +34,7 @@ if (isset($accessToken)) {
                         $prox_page = $fb->next($pagina)->asArray();
 
                     //verifica se terminou
-                    if (isset($prox_page[0]['message'])) {
+                    if (isset($prox_page[0]['id'])) {
                         $fim = 1;
                         echo "terminou";
                         break;

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b43633be-278f-41eb-b4b7-dfb37f8c6c0e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/configs/page_count_posts.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/configs/api_facebook.php" afterPath="$PROJECT_DIR$/configs/login_facebook.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/page_count_posts.php" afterPath="$PROJECT_DIR$/configs/page_count_posts.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,14 +49,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_count_posts.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page_count_posts.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configs/page_count_posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="103">
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding>
                 <element signature="e#6#101#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_count_likes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/configs/page_count_likes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="36" column="47" lean-forward="false" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,6 +132,7 @@
         <option value="$PROJECT_DIR$/configs/api_facebook.php" />
         <option value="$PROJECT_DIR$/../intranet/index.php" />
         <option value="$PROJECT_DIR$/configs/page_count_posts.php" />
+        <option value="$PROJECT_DIR$/configs/page_count_likes.php" />
       </list>
     </option>
   </component>
@@ -293,12 +301,12 @@
       <workItem from="1484571455766" duration="41000" />
       <workItem from="1484571658118" duration="5437000" />
       <workItem from="1484615970489" duration="6353000" />
-      <workItem from="1484651864773" duration="6347000" />
+      <workItem from="1484651864773" duration="6648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28422000" />
+    <option name="totallyTimeSpent" value="28723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="734" extended-state="0" />
@@ -638,11 +646,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/configs/page_count_posts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="103">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="e#6#101#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/page_count_likes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="36" column="47" lean-forward="false" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
