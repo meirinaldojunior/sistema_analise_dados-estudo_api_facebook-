@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b43633be-278f-41eb-b4b7-dfb37f8c6c0e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/page_count_posts.php" afterPath="$PROJECT_DIR$/configs/page_count_posts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/page_count_likes.php" afterPath="$PROJECT_DIR$/configs/page_count_likes.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +32,7 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="660">
               <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
@@ -51,55 +52,20 @@
       <file leaf-file-name="page_count_likes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/configs/page_count_likes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <marker date="1484748726000" expanded="true" signature="1173:1178" ph="..." />
-                <marker date="1484748726000" expanded="true" signature="1173:1521" ph="..." />
-                <marker date="1484748726000" expanded="true" signature="1238:1377" ph="..." />
-                <marker date="1484748726000" expanded="true" signature="1432:1519" ph="..." />
-                <marker date="1484748726000" expanded="true" signature="1527:1598" ph="..." />
-              </folding>
+            <state relative-caret-position="510">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../intranet/index.php">
+      <file leaf-file-name="page_count_posts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configs/page_count_posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="529" column="0" lean-forward="false" selection-start-line="529" selection-start-column="0" selection-end-line="529" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding>
-                <marker date="1484658619000" expanded="true" signature="159:229" ph="SELECT * FRO... pequeno_grupo" />
-                <marker date="1484658619000" expanded="true" signature="412:870" ph="SELECT SUM(p... " />
-                <marker date="1484658619000" expanded="true" signature="948:1455" ph="SELECT SUM(p... " />
-                <marker date="1484658619000" expanded="true" signature="1527:2102" ph="SELECT SUM(p... " />
-                <marker date="1484658619000" expanded="true" signature="2183:2853" ph="SELECT SUM(p... " />
-                <marker date="1484658619000" expanded="true" signature="9401:9428" ph="SELECT * FRO... pequeno_grupo" />
-                <marker date="1484658619000" expanded="true" signature="9575:9640" ph="SELECT * FRO... pequeno_grupo" />
-                <marker date="1484658619000" expanded="true" signature="9819:9902" ph="SELECT * FRO... pequeno_grupo" />
-                <marker date="1484658619000" expanded="true" signature="10021:10182" ph="SELECT * FRO... pequeno_grupo" />
-                <marker date="1484658619000" expanded="true" signature="10302:10476" ph="SELECT * FRO... pequeno_grupo" />
-                <marker date="1484658619000" expanded="true" signature="11217:11411" ph="SELECT SUM(d... estudos_biblicos" />
-                <marker date="1484658619000" expanded="true" signature="11548:11809" ph="SELECT SUM(d... estudos_biblicos" />
-                <marker date="1484658619000" expanded="true" signature="11945:12276" ph="SELECT SUM(d... estudos_biblicos" />
-                <marker date="1484658619000" expanded="true" signature="12392:12789" ph="SELECT SUM(d... estudos_biblicos" />
-                <marker date="1484658619000" expanded="true" signature="12905:13345" ph="SELECT SUM(d... estudos_biblicos" />
-                <marker date="1484658619000" expanded="true" signature="14224:14279" ph="SELECT *, SU... meta_campo" />
-                <marker date="1484658619000" expanded="true" signature="14466:14586" ph="SELECT *, SU... meta_campo" />
-                <marker date="1484658619000" expanded="true" signature="14748:14912" ph="SELECT *, SU... meta_campo" />
-                <marker date="1484658619000" expanded="true" signature="15090:15480" ph="SELECT SUM(n... meta_campo" />
-                <marker date="1484658619000" expanded="true" signature="16735:16782" ph="SELECT SUM(f... meta_campo" />
-                <marker date="1484658619000" expanded="true" signature="16976:17088" ph="SELECT SUM(f... meta_campo" />
-                <marker date="1484658619000" expanded="true" signature="17258:17409" ph="SELECT fidel... meta_campo" />
-                <marker date="1484658619000" expanded="true" signature="17547:17936" ph="SELECT fidel... meta_campo" />
-                <marker date="1484658619000" expanded="true" signature="19075:19128" ph="SELECT *, SU... meta_campo" />
-                <marker date="1484658619000" expanded="true" signature="19290:19405" ph="SELECT SUM(n... meta_campo" />
-                <marker date="1484658619000" expanded="true" signature="19535:19694" ph="SELECT SUM(n... meta_campo" />
-                <marker date="1484658619000" expanded="true" signature="19803:20196" ph="SELECT SUM(n... meta_campo" />
-                <marker date="1484658619000" expanded="true" signature="27087:27151" ph="SELECT * FRO... eventos" />
-                <marker date="1484658619000" expanded="true" signature="28660:28904" ph="select idusu... " />
-                <marker date="1484658619000" expanded="true" signature="29784:29798" ph="..." />
+                <element signature="e#6#101#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,8 +89,8 @@
         <option value="$PROJECT_DIR$/configs/acoes.php" />
         <option value="$PROJECT_DIR$/configs/api_facebook.php" />
         <option value="$PROJECT_DIR$/../intranet/index.php" />
-        <option value="$PROJECT_DIR$/configs/page_count_likes.php" />
         <option value="$PROJECT_DIR$/configs/page_count_posts.php" />
+        <option value="$PROJECT_DIR$/configs/page_count_likes.php" />
       </list>
     </option>
   </component>
@@ -138,7 +104,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="733" />
+    <option name="height" value="731" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -155,6 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,8 +169,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,12 +272,13 @@
       <workItem from="1484615970489" duration="6353000" />
       <workItem from="1484651864773" duration="11508000" />
       <workItem from="1484682687871" duration="1384000" />
-      <workItem from="1484736704348" duration="7065000" />
+      <workItem from="1484736704348" duration="7723000" />
+      <workItem from="1484753606857" duration="1294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42032000" />
+    <option name="totallyTimeSpent" value="43984000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,26 +290,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="733" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.165625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +323,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -396,38 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7935">
           <caret line="529" column="0" lean-forward="false" selection-start-line="529" selection-start-column="0" selection-end-line="529" selection-end-column="0" />
-          <folding>
-            <marker date="1484658619000" expanded="true" signature="159:229" ph="SELECT * FRO... pequeno_grupo" />
-            <marker date="1484658619000" expanded="true" signature="412:870" ph="SELECT SUM(p... " />
-            <marker date="1484658619000" expanded="true" signature="948:1455" ph="SELECT SUM(p... " />
-            <marker date="1484658619000" expanded="true" signature="1527:2102" ph="SELECT SUM(p... " />
-            <marker date="1484658619000" expanded="true" signature="2183:2853" ph="SELECT SUM(p... " />
-            <marker date="1484658619000" expanded="true" signature="9401:9428" ph="SELECT * FRO... pequeno_grupo" />
-            <marker date="1484658619000" expanded="true" signature="9575:9640" ph="SELECT * FRO... pequeno_grupo" />
-            <marker date="1484658619000" expanded="true" signature="9819:9902" ph="SELECT * FRO... pequeno_grupo" />
-            <marker date="1484658619000" expanded="true" signature="10021:10182" ph="SELECT * FRO... pequeno_grupo" />
-            <marker date="1484658619000" expanded="true" signature="10302:10476" ph="SELECT * FRO... pequeno_grupo" />
-            <marker date="1484658619000" expanded="true" signature="11217:11411" ph="SELECT SUM(d... estudos_biblicos" />
-            <marker date="1484658619000" expanded="true" signature="11548:11809" ph="SELECT SUM(d... estudos_biblicos" />
-            <marker date="1484658619000" expanded="true" signature="11945:12276" ph="SELECT SUM(d... estudos_biblicos" />
-            <marker date="1484658619000" expanded="true" signature="12392:12789" ph="SELECT SUM(d... estudos_biblicos" />
-            <marker date="1484658619000" expanded="true" signature="12905:13345" ph="SELECT SUM(d... estudos_biblicos" />
-            <marker date="1484658619000" expanded="true" signature="14224:14279" ph="SELECT *, SU... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="14466:14586" ph="SELECT *, SU... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="14748:14912" ph="SELECT *, SU... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="15090:15480" ph="SELECT SUM(n... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="16735:16782" ph="SELECT SUM(f... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="16976:17088" ph="SELECT SUM(f... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="17258:17409" ph="SELECT fidel... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="17547:17936" ph="SELECT fidel... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="19075:19128" ph="SELECT *, SU... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="19290:19405" ph="SELECT SUM(n... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="19535:19694" ph="SELECT SUM(n... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="19803:20196" ph="SELECT SUM(n... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="27087:27151" ph="SELECT * FRO... eventos" />
-            <marker date="1484658619000" expanded="true" signature="28660:28904" ph="select idusu... " />
-            <marker date="1484658619000" expanded="true" signature="29784:29798" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,7 +614,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="660">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
@@ -701,45 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../intranet/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="529" column="0" lean-forward="false" selection-start-line="529" selection-start-column="0" selection-end-line="529" selection-end-column="0" />
-          <folding>
-            <marker date="1484658619000" expanded="true" signature="159:229" ph="SELECT * FRO... pequeno_grupo" />
-            <marker date="1484658619000" expanded="true" signature="412:870" ph="SELECT SUM(p... " />
-            <marker date="1484658619000" expanded="true" signature="948:1455" ph="SELECT SUM(p... " />
-            <marker date="1484658619000" expanded="true" signature="1527:2102" ph="SELECT SUM(p... " />
-            <marker date="1484658619000" expanded="true" signature="2183:2853" ph="SELECT SUM(p... " />
-            <marker date="1484658619000" expanded="true" signature="9401:9428" ph="SELECT * FRO... pequeno_grupo" />
-            <marker date="1484658619000" expanded="true" signature="9575:9640" ph="SELECT * FRO... pequeno_grupo" />
-            <marker date="1484658619000" expanded="true" signature="9819:9902" ph="SELECT * FRO... pequeno_grupo" />
-            <marker date="1484658619000" expanded="true" signature="10021:10182" ph="SELECT * FRO... pequeno_grupo" />
-            <marker date="1484658619000" expanded="true" signature="10302:10476" ph="SELECT * FRO... pequeno_grupo" />
-            <marker date="1484658619000" expanded="true" signature="11217:11411" ph="SELECT SUM(d... estudos_biblicos" />
-            <marker date="1484658619000" expanded="true" signature="11548:11809" ph="SELECT SUM(d... estudos_biblicos" />
-            <marker date="1484658619000" expanded="true" signature="11945:12276" ph="SELECT SUM(d... estudos_biblicos" />
-            <marker date="1484658619000" expanded="true" signature="12392:12789" ph="SELECT SUM(d... estudos_biblicos" />
-            <marker date="1484658619000" expanded="true" signature="12905:13345" ph="SELECT SUM(d... estudos_biblicos" />
-            <marker date="1484658619000" expanded="true" signature="14224:14279" ph="SELECT *, SU... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="14466:14586" ph="SELECT *, SU... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="14748:14912" ph="SELECT *, SU... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="15090:15480" ph="SELECT SUM(n... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="16735:16782" ph="SELECT SUM(f... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="16976:17088" ph="SELECT SUM(f... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="17258:17409" ph="SELECT fidel... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="17547:17936" ph="SELECT fidel... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="19075:19128" ph="SELECT *, SU... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="19290:19405" ph="SELECT SUM(n... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="19535:19694" ph="SELECT SUM(n... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="19803:20196" ph="SELECT SUM(n... meta_campo" />
-            <marker date="1484658619000" expanded="true" signature="27087:27151" ph="SELECT * FRO... eventos" />
-            <marker date="1484658619000" expanded="true" signature="28660:28904" ph="select idusu... " />
-            <marker date="1484658619000" expanded="true" signature="29784:29798" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configs/login_facebook.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -758,26 +670,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configs/page_count_posts.php">
+    <entry file="file://$PROJECT_DIR$/../intranet/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#101#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="532" column="35" lean-forward="true" selection-start-line="532" selection-start-column="35" selection-end-line="532" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/configs/page_count_likes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="510">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/page_count_posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
-            <marker date="1484748726000" expanded="true" signature="1173:1178" ph="..." />
-            <marker date="1484748726000" expanded="true" signature="1173:1521" ph="..." />
-            <marker date="1484748726000" expanded="true" signature="1238:1377" ph="..." />
-            <marker date="1484748726000" expanded="true" signature="1432:1519" ph="..." />
-            <marker date="1484748726000" expanded="true" signature="1527:1598" ph="..." />
+            <element signature="e#6#101#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -21,33 +21,25 @@ $_data_fim = "2017-01-10";
 if (isset($accessToken)) {
     try {
 
-        $pagina_rp_like = $fb->get("333720355130/likes?since=2016-01-01&until=2017-01-10&limit=50");
-        $pagina_link = $pagina_rp_like->getGraphEdge();
 
-        $count2 += $pagina_link->count();
+        $p[1] = $fb->get("546166512248915/likes?fields=name,id");
+        $pag[1] = $p[1]->getGraphEdge()->ge;
+        $count += $pag[1]->count()->;
 
-            if($count2 >= 49) {
-                for ( $iii ; $ii < 150 ; $iii++){
-                        $count2 += $fb->next($pagina_link)->count();
+        print_r($pag[1]);
 
-                        //pega a próxima e transforma em array
-                        $prox_page = $fb->next($pagina_link)->asArray();
+        if($pag[1]->count() >= 100){
+            for ( $ii = 2 ; $ii < 1000 ; $ii++){
+                $pag[$ii] = $fb->next($pag[$ii-1]);
+                $count += $pag[$ii]->count();
 
-
-
-                    //verifica se terminou
-                    if (isset($prox_page[0]['name'])) {
-                        print_r($prox_page);
-
-                        $fim = 1;
-                        echo "terminou";
-                        break;
-                    }
+                if($pag[$ii]->count() < 100){
+                    break;
                 }
             }
+        }
 
 
-        echo $count2;
 
     } catch (Facebook\Exceptions\FacebookResponseException $e) {
         echo 'Graph returned an error: ' . $e->getMessage();
