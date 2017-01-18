@@ -11,38 +11,31 @@ require_once 'login_facebook.php';
 $anoo = date('date');
 $count = 0;
 $limite = 100;
-$offset = 0;
 
 //REFERENCIAS DA PESQUISA
-$_cod_page = "bradesco";
-$_data_inicio = "2006-01-28";
-$_data_fim = "2017-01-28";
+$_cod_page = "camporiuneb";
+$_data_inicio = "2016-10-28";
+$_data_fim = "2017-01-10";
 
 //MOSTRAR POSTS
 if (isset($accessToken)) {
     try {
 
+        $p[1] = $fb->get("$_cod_page/feed?until=$_data_fim&since=$_data_inicio&limit=100");
+        $pag[1] = $p[1]->getGraphEdge();
+        $count = $pag[1]->count();
 
+                for ( $ii = 2 ; $ii < 1000 ; $ii++){
+                    $pag[$ii] = $fb->next($pag[$ii-1]);
+                    $count += $pag[$ii]->count();
 
-                for ( $ii ; $ii < 10000 ; $ii++){
-
-                    $pagina_rp = $fb->get("".$_cod_page."/feed?until=".$_data_fim."&since=".$_data_inicio."&limit=".$limite."&offset=".$offset."");
-                    $pagina = $pagina_rp->getGraphEdge();
-                    $count += $pagina->count();
-
-                    $offset += $limite;
-
-                    //verifica se terminou
-                    if ($pagina->count() < $limite) {
-
-                        echo "terminou";
+                    if($pag[$ii]->count() < 100){
                         break;
                     }
                 }
 
 
-
-        echo $count;
+       echo $count;
 
     } catch (Facebook\Exceptions\FacebookResponseException $e) {
         echo 'Graph returned an error: ' . $e->getMessage();
