@@ -14,14 +14,14 @@ $limite = 100;
 
 //REFERENCIAS DA PESQUISA
 $_cod_page = "camporiuneb";
-$_data_inicio = "2017-01-17";
+$_data_inicio = "2016-01-17";
 $_data_fim = "2017-01-18";
 
 //MOSTRAR POSTS
 if (isset($accessToken)) {
     try {
 
-        $p[1] = $fb->get("$_cod_page/feed?until=$_data_fim&since=$_data_inicio&limit=100");
+        $p[1] = $fb->get("$_cod_page/feed?until=$_data_fim&since=$_data_inicio&limit=$limite");
         $pag[1] = $p[1]->getGraphEdge();
         $count += $pag[1]->count();
 

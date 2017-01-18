@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b43633be-278f-41eb-b4b7-dfb37f8c6c0e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/page_count_likes.php" afterPath="$PROJECT_DIR$/configs/page_count_likes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configs/page_count_posts.php" afterPath="$PROJECT_DIR$/configs/page_count_posts.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,23 +48,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_count_likes.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page_count_likes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/configs/page_count_likes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page_count_posts.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/configs/page_count_posts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="180">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
-                <element signature="e#6#101#0#PHP" expanded="true" />
+                <marker date="1484748726000" expanded="true" signature="1173:1178" ph="..." />
+                <marker date="1484748726000" expanded="true" signature="1173:1521" ph="..." />
+                <marker date="1484748726000" expanded="true" signature="1238:1377" ph="..." />
+                <marker date="1484748726000" expanded="true" signature="1432:1519" ph="..." />
+                <marker date="1484748726000" expanded="true" signature="1527:1598" ph="..." />
               </folding>
             </state>
           </provider>
@@ -313,12 +306,12 @@
       <workItem from="1484615970489" duration="6353000" />
       <workItem from="1484651864773" duration="11508000" />
       <workItem from="1484682687871" duration="1384000" />
-      <workItem from="1484736704348" duration="6976000" />
+      <workItem from="1484736704348" duration="7065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41943000" />
+    <option name="totallyTimeSpent" value="42032000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -765,20 +758,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configs/page_count_likes.php">
+    <entry file="file://$PROJECT_DIR$/configs/page_count_posts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="177">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#101#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configs/page_count_posts.php">
+    <entry file="file://$PROJECT_DIR$/configs/page_count_likes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="180">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
-            <element signature="e#6#101#0#PHP" expanded="true" />
+            <marker date="1484748726000" expanded="true" signature="1173:1178" ph="..." />
+            <marker date="1484748726000" expanded="true" signature="1173:1521" ph="..." />
+            <marker date="1484748726000" expanded="true" signature="1238:1377" ph="..." />
+            <marker date="1484748726000" expanded="true" signature="1432:1519" ph="..." />
+            <marker date="1484748726000" expanded="true" signature="1527:1598" ph="..." />
           </folding>
         </state>
       </provider>
