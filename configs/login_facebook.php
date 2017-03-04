@@ -8,6 +8,11 @@
 
 require_once 'config.php';
 
+session_start();
+
+$_SESSION['count'] = 0;
+
+
 
 $Login = $fb->getRedirectLoginHelper();
 $permissions = ['email'];

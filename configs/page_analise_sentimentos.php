@@ -17,15 +17,15 @@ $limite = 100;
 
 
 //REFERENCIAS DA PESQUISA
-$_data_inicio = "2014-01-01";
-$_data_fim = "2014-03-30";
+$_data_inicio = "2010-01-01";
+$_data_fim = "207-12-30";
 
 echo "data_inicio = $_data_inicio - data_fim = $_data_fim<br>";
 
 //MOSTRAR POSTS
     if (isset($accessToken)) {
         try {
-        for($ee; $ee < 72; $ee++) {
+        for($ee; $ee < 200; $ee++) {
 
             $count = 0;
             $count2++;
@@ -38,17 +38,6 @@ echo "data_inicio = $_data_inicio - data_fim = $_data_fim<br>";
             $pag[1] = $p[1]->getGraphEdge();
             $count += $pag[1]->count();
 
-
-            if ($pag[1]->count() >= 100) {
-                for ($ii = 2; $ii < 100000; $ii++) {
-                    $pag[$ii] = $fb->next($pag[$ii - 1]);
-                    $count += $pag[$ii]->count();
-
-                    if ($pag[$ii]->count() < 100) {
-                        break;
-                    }
-                }
-            }
 
             echo $count."<br>";
         }
